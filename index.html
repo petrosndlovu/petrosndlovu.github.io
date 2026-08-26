@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petros Ndlovu | Computer Engineering Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1120;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #0b1120, #172554);
+        }
+
+        .hero {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero h2 {
+            font-size: 24px;
+            color: #cbd5e1;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #94a3b8;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #38bdf8;
+            color: #07111f;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin: 5px;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 18px;
+            background: rgba(11,17,32,0.95);
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        section {
+            padding: 80px 25px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 35px;
+            color: #38bdf8;
+        }
+
+        .about {
+            text-align: center;
+            color: #cbd5e1;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .skill, .project {
+            background: #111827;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #1e3a5f;
+        }
+
+        .skill {
+            text-align: center;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #cbd5e1;
+        }
+
+        .status {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 6px 12px;
+            background: #854d0e;
+            color: #fde68a;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        .education {
+            text-align: center;
+            color: #cbd5e1;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            color: #cbd5e1;
+            margin: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #050a14;
+            color: #64748b;
+        }
+
+        @media(max-width:600px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <div class="hero">
+        <h1>Hi, I'm <span>Petros Ndlovu</span></h1>
+
+        <h2>Computer Engineering Student & Aspiring IT Professional</h2>
+
+        <p>
+            I am a Computer Engineering student passionate about technology,
+            networking, systems development and practical engineering solutions.
+        </p>
+
+        <a class="button" href="#projects">View My Projects</a>
+        <a class="button" href="#contact">Contact Me</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="about">
+        <p>
+            I am Petros Ndlovu, a Computer Engineering student currently
+            pursuing Level 6 with ABMA Education UK. I have completed
+            Levels 3, 4 and 5 and continue to develop my technical knowledge
+            through academic study and practical projects.
+        </p>
+
+        <br>
+
+        <p>
+            My interests include computer systems, networking, hardware,
+            software, information technology and engineering solutions.
+            I am continuously developing my skills and looking for opportunities
+            to gain professional experience and contribute to real-world projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Knowledge</h2>
+
+    <div class="skills">
+        <div class="skill">Computer Engineering</div>
+        <div class="skill">Computer Hardware</div>
+        <div class="skill">Networking</div>
+        <div class="skill">Internet Protocols</div>
+        <div class="skill">Data Centre Networks</div>
+        <div class="skill">Systems Analysis</div>
+        <div class="skill">Software Development</div>
+        <div class="skill">Problem Solving</div>
+        <div class="skill">IT Support</div>
+        <div class="skill">Network Configuration</div>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="education">
+        <h3>ABMA Education UK</h3>
+
+        <p>Level 3 — Completed</p>
+        <p>Level 4 — Completed</p>
+        <p>Level 5 — Completed</p>
+        <p>Level 6 — Currently Pursuing</p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Cooling Monitoring System</h3>
+
+        <p>
+            A developing computer engineering project focused on monitoring
+            cooling conditions and providing information that can help improve
+            system/environmental monitoring.
+        </p>
+
+        <span class="status">Currently in Development</span>
+    </div>
+
+    <div class="project">
+        <h3>Data Centre Network Design</h3>
+
+        <p>
+            Academic work focused on analysing network design requirements
+            for data centre environments and Internet protocols.
+        </p>
+
+        <span class="status">Academic Project</span>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact">
+        <p>I am open to internship, industrial attachment and professional opportunities.</p>
+
+        <a class="button" href="mailto:your-email@example.com">
+            Email Me
+        </a>
+
+        <p>GitHub: petrosndlovu</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Petros Ndlovu. All Rights Reserved.</p>
+    <p>Computer Engineering | Technology | Innovation</p>
+</footer>
+
+</body>
+</html>
