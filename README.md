@@ -11,7 +11,5 @@ Create a GitHub repository named `petrosndlovu.github.io`, then upload:
 
 Enable GitHub Pages from the repository's Settings → Pages.
 
-The portfolio is separate from PN Technologies.
-
 ## Current project
 Cooling Monitoring System — **In Development / Planning**. It is deliberately not presented as completed.
